@@ -6,7 +6,7 @@ import re
 def check_pass_strength(password):
     # Check if the password length is at least 8 characters
     if len(password) < 8:
-        return 'Weak: password'
+        return 'Weak: password not usefull'
 
     # Check if password contains at least one digit
     if not any(char.isdigit() for char in password):
